@@ -19,13 +19,14 @@ class circulo{
 
 int main(){
 	float n;
+	printf("Ingresar radio del circulo: ");
 	scanf("%f",&n);	
     circulo pelota(n);
     
-    printf("El area del circulo es: %f \nEl perimetro del circulo es: %f",pelota.calcularArea(),pelota.calcularPerimetro());
+    printf("El area del circulo es: %.2f \nEl perimetro del circulo es: %.2f",pelota.calcularArea(),pelota.calcularPerimetro());
     pelota.cambiarRadio(5.0);
-    printf("El nuevo valor del radio es: %f",pelota.radio);
-    printf("El area del circulo es: %f \nEl perimetro del circulo es:%f",pelota.calcularArea(),pelota.calcularPerimetro());
+    printf("\nEl nuevo valor del radio es: %.2f",pelota.radio);
+    printf("\nEl area del circulo es: %.2f \nEl perimetro del circulo es:%.2f",pelota.calcularArea(),pelota.calcularPerimetro());
 	
 	return 0;
 }

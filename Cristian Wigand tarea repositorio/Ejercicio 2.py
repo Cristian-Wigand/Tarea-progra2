@@ -18,8 +18,6 @@
 #Muestra por pantalla el perímetro de ese rectángulo.
 
 class Rectangulo:
-    # Atributo de clase
-    numero_de_ruedas = 4
 
     # Constructor
     def __init__(self, longitud, ancho):
